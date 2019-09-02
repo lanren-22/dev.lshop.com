@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>自定义首页</title>
+		<link rel="stylesheet" href="assets/layui/css/layui.css">
+		<link rel="stylesheet" href="assets/store/css/diy.css">
+	</head>
+	<body class="layui-layout-body">
+		<div class="layui-container">
+		  <div class="layui-row">
+				<div class="layui-row layui-col-space10">
+				  <div class="layui-col-md3">
+					<div class="layui-collapse" lay-accordion>
+					  <div class="layui-colla-item">
+					    <h2 class="layui-colla-title">常用模块</h2>
+					    <div class="layui-colla-content layui-show">
+							<table class="layui-table">
+							  <tbody>
+							    <tr>
+							      <td>
+									<div>
+										<i class="layui-icon layui-icon-search"></i>
+									</div>
+								  </td>
+							      <td>
+									<i class="layui-icon layui-icon-search"></i>
+								  </td>
+							      <td>
+									<i class="layui-icon layui-icon-search"></i>
+								  </td>
+							    </tr>
+							    <tr>
+							      <td>
+									<i class="layui-icon layui-icon-search"></i>
+								  </td>
+							      <td>
+									<i class="layui-icon layui-icon-search"></i>
+								  </td>
+							      <td>
+									<i class="layui-icon layui-icon-search"></i>
+								  </td>
+							    </tr>
+							  </tbody>
+							</table>
+						</div>
+					  </div>
+					  <div class="layui-colla-item">
+					    <h2 class="layui-colla-title">互动模块</h2>
+					    <div class="layui-colla-content layui-show">内容区域</div>
+					  </div>
+					  <div class="layui-colla-item">
+					    <h2 class="layui-colla-title">高级模块</h2>
+					    <div class="layui-colla-content layui-show">内容区域</div>
+					  </div>
+					</div>
+				  </div>
+				  <div class="layui-col-md6">
+					<div class="diy-phone">
+						<!-- 手机顶部标题 -->
+						<div class="phone-top"></div>
+						<!-- 小程序内容区域 -->
+						<div id="phone-main" class="phone-main"></div>
+					</div>
+				  </div>
+				  <div class="layui-col-md3">
+					
+				  </div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="assets/store/js/ddsort.js"></script>
+		<script src="assets/store/js/diy.js"></script>
+		<script src="assets/layui/layui.js"></script>
+		<script>
+		//JavaScript代码区域
+		layui.use('element', function(){
+		  var element = layui.element;
+		  
+		});
+		</script>
+	</body>
+</html>
